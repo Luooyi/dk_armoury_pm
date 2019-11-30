@@ -43,8 +43,12 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-	
+
 	$conn->close();
+	echo'<script type="text/javascript">
+alert("Thank you for your purchase!");
+window.location.href="index.php";
+</script>';
 	//header("location: cart.php");
 ?>
 

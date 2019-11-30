@@ -23,7 +23,7 @@
 	<div class="container">
 		<div class = "row">
 			<div class="col">
-			<img src="imgs/articles/<?php echo $row['idItem'];?>_1.png" alt="Armour" class ="center" style="width:80%">
+			<img src="imgs/articles/<?php echo $row['idItem'];?>_1.png" alt="Armour" class ="center zoom" style="width:80%">
 			</div>
 				<div class="col">
 				<div class="col-md-12">

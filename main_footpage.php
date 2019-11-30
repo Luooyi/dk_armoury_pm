@@ -1,3 +1,13 @@
+<script>
+$(document).ready(function(){
+    $('.zoom').hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+</script>
+
 <pre> </pre>
 	<div class ="footer">
 	<a href="index.php"><img src="imgs/DKA_Logo.png" class="rounded mx-auto d-block" alt="Logo" style="top: -60%; left: 43%;width:15%;position:absolute"></a>

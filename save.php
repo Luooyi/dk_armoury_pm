@@ -28,7 +28,12 @@
 		echo "Error: " . $sql . "<br>" . $conn->error;
 	}
 	
+
 	$conn->close();
+	echo'<script type="text/javascript">
+	alert("An email has been sent for your confirmation!");
+	window.location.href="index.php";
+	</script>';
 ?>
 
 <html lang="es">
