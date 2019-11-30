@@ -1,0 +1,30 @@
+<style>
+.button {
+background-color: #63563D;
+font-family: Mongolian Baiti;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover
+{
+background-image:none !important;
+background-color:#9D9483 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+</style>
+
+-------------HTML------------
+<a href="new.php" class="button">Register</a>	
+
+
+						<div id="Account-pannel">
+							This div has a width of 300px. But the full width is 300px + 20px (left and right border) + 60px (left and right padding) = 380px!
+						</div>

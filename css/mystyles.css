@@ -1,0 +1,290 @@
+#dk_logo {
+  background-image:url("imgs/DKA_Logo_Styled.png");
+  height:100px;
+  left:1200px; /* play around with this */
+  position:absolute;
+  top:50px; /* and play around with this */
+  width:100%;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid  #63563D;
+  margin: 1em 0;
+  padding: 0;
+}
+.mt-0 {
+  margin-top: 100 !important;
+}
+.mybutton {
+    background-color: #63563D;
+    font-family: Mongolian Baiti;
+      border: none;
+      color: white !important;
+      padding: 9px 20px!important;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .mybutton-medium {
+      background-color: #63563D;
+      font-family: Mongolian Baiti;
+        border: none;
+        color: white !important;
+        padding: 9px 30px!important;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    .mybutton:hover
+    {
+    background-image:none;
+    background-color:#9D9483 ;
+      color: white ;
+      text-decoration: none;
+    }
+    .mybutton-medium:hover
+    {
+    background-image:none;
+    background-color:#9D9483 ;
+      color: white ;
+      text-decoration: none;
+    }
+    #itemquantity input {
+      width: 100%;
+    }
+    .input_qty{
+      background-color: white;
+      width: 10% !important;
+      text-align: center;
+    }
+    .input_account{
+      background-color: white;
+      width: 50% !important;
+      height: 50px !important;
+      text-align: left;
+    }
+    .form-control-short{
+      width: 13% !important;
+      height: 50px !important;
+    }
+    .form-control-medium{
+      width: 30% !important;
+      height: 50px !important;
+    }
+    .form-control-mediumshort{
+      width: 15% !important;
+      height: 50px !important;
+    }
+    .form-control-large{
+      width: 50% !important;
+      height: 50px !important;
+    }
+    .select_size{
+      background-color: white;
+      width: 20% !important;
+    }
+    #Account-pannel {
+                display:none;
+      box-sizing: content-box;  
+    width: 304px;
+    height: 237px;
+      padding: 30px;  
+    background-color: #EFEDE3;
+    border: 4px solid #9D9483;
+    border-radius: 7px;
+    }
+    .navbar {
+      width: 100%;
+      background-color: #EFEDE3;
+      overflow: auto;
+    }
+    
+    /* Navbar links */
+    .navbar a {
+      float: right !important; 
+      padding: 12px;
+      font-family: Mongolian Baiti;
+      color: #63563D;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+    /* Navbar links on mouse-over */
+    .navbar a:hover {
+      background-image: none ;
+      background-color: #9D9483 !;
+        color: white ;
+        text-decoration: none;
+    }
+    
+    /* Current/active navbar link */
+    .active {
+      background-color: none;
+    }
+    
+    /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+
+  /* Column Images */
+    /* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #EFEDE3;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+pre {
+  display: block;
+  margin: 130px 0;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.h2_centered {
+  text-align: center;
+  font-size: 250%;
+  font-family: Mongolian Baiti;
+  color: #63563D;
+}
+.h2_big {
+  font-size: 300%;
+  font-family: Mongolian Baiti;
+  color: #63563D;
+}
+.h2 {
+  font-size: 200%;
+  font-family: Mongolian Baiti;
+  color: #63563D;
+}
+.p {
+  font-family: Calibri Light;
+  font-size: 16.0pt;
+  color: #63563D;
+}
+.h2_centered:hover{
+  text-align: center;
+  text-decoration: none  !important;
+  font-size: 250%;
+  font-family: Mongolian Baiti;
+  color: #63563D;
+}
+.categories{
+  width: 73px;
+  height: 21px;
+  font-family: Calibri;
+  font-size: 15.0pt;
+  font-weight: 400;
+  color: #63563D;
+  text-decoration: none !important;
+
+}
+.categories:hover{
+  color: #63563D;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: none;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*My Input Styles*/
+input[type=text], select {
+  width: 2%;
+  padding: 12px 13px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
